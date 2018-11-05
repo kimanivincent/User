@@ -18,6 +18,8 @@
 
     <div class="col-md-10">
         <ul>
+            <li><a href="Home%20Page.php">Home Page</a></li>
+
             <li><a href="Timetable.php">Timetable</a></li>
 
             <li><a href="showall.php">Students</a></li>
@@ -31,7 +33,8 @@
     </div>
 
 </div>
-
 <hr>
+
+<a href="login.php"><button class="btn btn-danger">Log Out</button></a>
 </body>
 </html>

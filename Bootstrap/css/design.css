@@ -40,7 +40,7 @@ hr
 }
 .t
 {
-    background-image: url("../../images/two.jpg");
+    background-image: url("../../images/three.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -134,7 +134,7 @@ h1
     font-size: 30px;
     font-family: newfont3;
     font-weight: bolder;
-    color: #fff;
+    color: black;
     padding: 5px;
 }
 
@@ -169,7 +169,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    /*background-color: blue;*/
     position: fixed;
     top: 0;
     width: 100%;
@@ -181,14 +181,17 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: newfont;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: white;
 }
 
 .active {

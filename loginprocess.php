@@ -17,9 +17,9 @@ if (isset($_GET['btnsave']))
     {
         $username = $_GET['username'];
         $password = $_GET['password'];
-        $insert = "INSERT INTO `six`( `Username`, `Password`) 
-VALUES ('$username','$password')";
-        $query = mysqli_query($connected,$insert);
+//        $insert = "INSERT INTO `six`( `Username`, `Password`)
+//VALUES ('$username','$password')";
+//        $query = mysqli_query($connected,$insert);
 
         if ($query){
             echo "saved successfully";
